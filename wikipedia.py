@@ -25,3 +25,4 @@ def mergelinks(linklists):
             for link in linklist:
                 if link not in finallist:
                     finallist.append(link)
+    return finallist
